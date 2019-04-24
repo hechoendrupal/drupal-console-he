@@ -1,4 +1,7 @@
-# drupal-console-en
+# drupal-console-he
+DrupalConsole Hebrew Language / בעברית
+
+# גרסה בעברית
 
 ## Usage
 
