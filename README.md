@@ -45,6 +45,6 @@ $ chmod +x /usr/local/bin/drupal
 - [הורדת הפרוייקט](https://docs.drupalconsole.com/en/contributing/getting-the-project.html)
 - [הרצת הפרוייקט](https://docs.drupalconsole.com/en/contributing/running-the-project.html)
 
-<span style="direction:ltr;text-align:left;">PR (= Pull request)</span> נ.ב. : יש לדחוף את השינויים מהעותק שלך לפרוייקט ממנו יצאת על ידי פקודת
+</span>PR (= Pull request)<span style="direction:ltr;text-align:left;"> נ.ב. : יש לדחוף את השינויים מהעותק שלך לפרוייקט ממנו יצאת על ידי פקודת
  וזאת על מנת להמנע מקונפליקטים עם תורמי קוד אחרים.
 </div>
