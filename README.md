@@ -1,3 +1,4 @@
+
 # drupal-console-he
 DrupalConsole Hebrew Language / בעברית
 
@@ -33,16 +34,16 @@ $ php -r "readfile('https://drupalconsole.com/installer');" > drupal.phar
 $mv drupal.phar /usr/local/bin/drupal
 $ chmod +x /usr/local/bin/drupal
 ```
-<div dir="rtl">
-### Contribute - כיצד ניתן לתרום
+
+<div dir="rtl" align="right" style="direction:rtl;text-align:right;">
+<strong>כיצד ניתן לתרום </strong> 
 
 למעוניינים לתרום לתרגום הפרוייקט הזה , יש לבצע את השלבים הרשומים מטה על מנת ליצור את סביבת העבודה.
-
+</div>
 
 - [דרישות הפרייקט](https://docs.drupalconsole.com/en/contributing/project-requirements.html)
 - [הורדת הפרוייקט](https://docs.drupalconsole.com/en/contributing/getting-the-project.html)
 - [הרצת הפרוייקט](https://docs.drupalconsole.com/en/contributing/running-the-project.html)
 
- PR (= Pull request)נ.ב. : יש לדחוף את השינויים מהעותק שלך לפרוייקט ממנו יצאת על ידי פקודת
+PR (= Pull request)נ.ב. : יש לדחוף את השינויים מהעותק שלך לפרוייקט ממנו יצאת על ידי פקודת
  וזאת על מנת להמנע מקונפליקטים עם תורמי קוד אחרים.
-</div>
