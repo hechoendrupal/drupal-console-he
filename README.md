@@ -5,27 +5,29 @@ DrupalConsole Hebrew Language / בעברית
 # גרסה בעברית
 
 ## Usage -  אופן השימוש
+<div dir="rtl" align="right" style="direction:rtl;text-align:right;">
+הדרופל קונסול מותקן באופן דיפולטי עבור כל אתר דרופל 8  בשפה האנגלית.
 
-Drupal Console project it's installed per each Drupal 8 website with English language by default.
-
-To install Drupal Console package in other languages check the packages available at [https://packagist.org](https://packagist.org)
-
+על מנת להתקין את הדרופל קונסול בשפה אחרת יש לבדוק האם קיימת גרסא או חבילה ב[https://packagist.org](https://packagist.org)
+</div>
 
 ### Install Drupal Console - התקנה על ידי שימוש בטרמינל
-
-To install the appropriate version of Drupal Console project for your drupal installation, run the following composer command
-
+<div dir="rtl" align="right" style="direction:rtl;text-align:right;">
+על מנת לוודא איזו גרסת דרופל קונסול תואמת לגרסת הדרופל המותקנת אצלך יש להריץ את הפקודה הרשומה מטה
+</div>
 ```
 $ composer require drupal/console:~1.0 --prefer-dist --optimize-autoloader
 ```
 
 ### Install Drupal Console launcher - התקנה בעזרת אשף התקנות
-
+<div dir="rtl" align="right" style="direction:rtl;text-align:right;">
+בכדי למנוע התנגשויות בין גרסאות דרופל כאשר גרסת הדרופל היא גרסת ביניים (בין גרסא מינורית לגרסא מג׳ורית)נוצר אשף הגרסאות.
+ וגרסאות דרופל קונסול
 In order to avoid conflicts between Drupal release and have a Drupal Console version between major and minor releases in Drupal,  a Drupal Console launcher was created. In order to facilitate to load the Drupal Console commands available to each
 Drupal 8 website,
 
 To install Drupal Console launcher globally follow the instruction below.
-
+</div>
 ```
 $ curl https://drupalconsole.com/installer -L -o drupal.phar
 # Or
@@ -45,6 +47,7 @@ $ chmod +x /usr/local/bin/drupal
 - [הורדת הפרוייקט](https://docs.drupalconsole.com/en/contributing/getting-the-project.html)
 - [הרצת הפרוייקט](https://docs.drupalconsole.com/en/contributing/running-the-project.html)
 
-</span>PR (= Pull request)<span style="direction:ltr;text-align:left;"> נ.ב. : יש לדחוף את השינויים מהעותק שלך לפרוייקט ממנו יצאת על ידי פקודת
- וזאת על מנת להמנע מקונפליקטים עם תורמי קוד אחרים.
+ נ.ב. : יש לדחוף את השינויים מהעותק שלך לפרוייקט ממנו יצאת על ידי הפקודה הרשומה מטה
+ על מנת להמנע מקונפליקטים עם תורמי קוד אחרים.
+ ```PR (= Pull request)```
 </div>
