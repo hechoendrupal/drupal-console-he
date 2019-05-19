@@ -6,27 +6,26 @@ DrupalConsole Hebrew Language / בעברית
 
 ## Usage -  אופן השימוש
 <div dir="rtl" align="right" style="direction:rtl;text-align:right;">
-הדרופל קונסול מותקן באופן דיפולטי עבור כל אתר דרופל 8  בשפה האנגלית.
+הדרופל קונסול מותקן באופן דיפולטי עבור כל אתר דרופל 8 בשפה האנגלית.
 
-על מנת להתקין את הדרופל קונסול בשפה אחרת יש לבדוק האם קיימת גרסא או חבילה ב[https://packagist.org](https://packagist.org)
+על מנת להתקין את הדרופל קונסול בשפה אחרת יש לבדוק האם קיימת גרסא או חבילה ב [https://packagist.org](https://packagist.org)
 </div>
 
 ### Install Drupal Console - התקנה על ידי שימוש בטרמינל
 <div dir="rtl" align="right" style="direction:rtl;text-align:right;">
 על מנת לוודא איזו גרסת דרופל קונסול תואמת לגרסת הדרופל המותקנת אצלך יש להריץ את הפקודה הרשומה מטה
 </div>
+
 ```
 $ composer require drupal/console:~1.0 --prefer-dist --optimize-autoloader
 ```
 
 ### Install Drupal Console launcher - התקנה בעזרת אשף התקנות
 <div dir="rtl" align="right" style="direction:rtl;text-align:right;">
-בכדי למנוע התנגשויות בין גרסאות דרופל כאשר גרסת הדרופל היא גרסת ביניים (בין גרסא מינורית לגרסא מג׳ורית)נוצר אשף הגרסאות.
- וגרסאות דרופל קונסול
-In order to avoid conflicts between Drupal release and have a Drupal Console version between major and minor releases in Drupal,  a Drupal Console launcher was created. In order to facilitate to load the Drupal Console commands available to each
-Drupal 8 website,
-
-To install Drupal Console launcher globally follow the instruction below.
+בכדי למנוע התנגשויות בין גרסאות דרופל כאשר גרסת הדרופל היא גרסת ביניים (בין גרסא מינורית לגרסא מג׳ורית) נוצר אשף התקנות.
+אשף ההתקנות נועד לעזור בהתקנת הדרופל קונסול עבור כל אתר דרופל 8.
+ 
+ על מנת להתקין את אשף ההתקנות באופן גלובלי יש לעקוב אחר ההוראות הרשומות מטה.
 </div>
 ```
 $ curl https://drupalconsole.com/installer -L -o drupal.phar
