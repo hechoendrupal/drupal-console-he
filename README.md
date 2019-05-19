@@ -8,7 +8,7 @@ DrupalConsole Hebrew Language / בעברית
 <div dir="rtl" align="right" style="direction:rtl;text-align:right;">
 הדרופל קונסול מותקן באופן דיפולטי עבור כל אתר דרופל 8 בשפה האנגלית.
 
-על מנת להתקין את הדרופל קונסול בשפה אחרת יש לבדוק האם קיימת גרסא או חבילה ב- [https://packagist.org](https://packagist.org)
+על מנת להתקין את הדרופל קונסול בשפה אחרת יש לבדוק האם קיימת גרסא או חבילה ב- [https://packagist.org](https://packagist.org).
 </div>
 
 ### Install Drupal Console - התקנה על ידי שימוש בטרמינל
