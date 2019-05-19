@@ -27,6 +27,7 @@ $ composer require drupal/console:~1.0 --prefer-dist --optimize-autoloader
  
  על מנת להתקין את אשף ההתקנות באופן גלובלי יש לעקוב אחר ההוראות הרשומות מטה.
 </div>
+
 ```
 $ curl https://drupalconsole.com/installer -L -o drupal.phar
 # Or
@@ -48,5 +49,7 @@ $ chmod +x /usr/local/bin/drupal
 
  נ.ב. : יש לדחוף את השינויים מהעותק שלך לפרוייקט ממנו יצאת על ידי הפקודה הרשומה מטה
  על מנת להמנע מקונפליקטים עם תורמי קוד אחרים.
+ </div>
+ 
  ```PR (= Pull request)```
-</div>
+
