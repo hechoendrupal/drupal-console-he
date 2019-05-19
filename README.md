@@ -8,7 +8,7 @@ DrupalConsole Hebrew Language / בעברית
 <div dir="rtl" align="right" style="direction:rtl;text-align:right;">
 הדרופל קונסול מותקן באופן דיפולטי עבור כל אתר דרופל 8 בשפה האנגלית.
 
-על מנת להתקין את הדרופל קונסול בשפה אחרת יש לבדוק האם קיימת גרסא או חבילה ב [https://packagist.org](https://packagist.org)
+על מנת להתקין את הדרופל קונסול בשפה אחרת יש לבדוק האם קיימת גרסא או חבילה ב- [https://packagist.org](https://packagist.org)
 </div>
 
 ### Install Drupal Console - התקנה על ידי שימוש בטרמינל
@@ -23,8 +23,9 @@ $ composer require drupal/console:~1.0 --prefer-dist --optimize-autoloader
 ### Install Drupal Console launcher - התקנה בעזרת אשף התקנות
 <div dir="rtl" align="right" style="direction:rtl;text-align:right;">
 בכדי למנוע התנגשויות בין גרסאות דרופל כאשר גרסת הדרופל היא גרסת ביניים (בין גרסא מינורית לגרסא מג׳ורית) נוצר אשף התקנות.
+
 אשף ההתקנות נועד לעזור בהתקנת הדרופל קונסול עבור כל אתר דרופל 8.
- 
+
  על מנת להתקין את אשף ההתקנות באופן גלובלי יש לעקוב אחר ההוראות הרשומות מטה.
 </div>
 
@@ -50,6 +51,6 @@ $ chmod +x /usr/local/bin/drupal
  נ.ב. : יש לדחוף את השינויים מהעותק שלך לפרוייקט ממנו יצאת על ידי הפקודה הרשומה מטה
  על מנת להמנע מקונפליקטים עם תורמי קוד אחרים.
  </div>
- 
+
  ```PR (= Pull request)```
 
