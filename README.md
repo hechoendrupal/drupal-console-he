@@ -13,7 +13,7 @@ DrupalConsole Hebrew Language / בעברית
 
 ### Install Drupal Console - התקנה על ידי שימוש בטרמינל
 <div dir="rtl" align="right" style="direction:rtl;text-align:right;">
-על מנת לוודא איזו גרסת דרופל קונסול תואמת לגרסת הדרופל המותקנת אצלך יש להריץ את הפקודה הרשומה מטה
+על מנת לוודא איזו גרסת דרופל קונסול תואמת לגרסת הדרופל המותקנת אצלך יש להריץ את הפקודה הרשומה מטה:
 </div>
 
 ```
@@ -53,4 +53,3 @@ $ chmod +x /usr/local/bin/drupal
  </div>
 
  ```PR (= Pull request)```
-
