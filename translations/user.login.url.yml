@@ -1,14 +1,14 @@
-description: 'Returns a one-time user login url.'
+description: 'מחזיר לינק חד פעמי עבור כניסת משתמש.'
 options:
-  user: 'User name/id.'
+  user: 'שם משתמש/מזהה משתמש'
 messages:
-  url: 'One-time login for "%s"'
+  url: '"%s" כניסה חד פעמית עבור'
 questions:
-  user: 'Enter User name/id'
+  user: 'הכנס/י שם משתמש/מזהה משתמש'
 errors:
-  invalid-user: 'Cannot load user entity using: "%s".'
+  invalid-user: '("%s" לא ניתן להעלות את פרטי המשתמש (מזהה משתמש)'
 examples:
-  - description: 'Get one time login url for user id 10'
+  - description: 'קבל/י לינק חד פעמי עבור משתמש בעל מזהה משתמש 10'
     execution: drupal user:login:url  10
-  - description: 'Get one time login url for username jmolivas'
+  - description: 'jmolivas קבל/י לינק חד פעמי עבור משתמש בשם'
     execution: drupal user:login:url jmolivas

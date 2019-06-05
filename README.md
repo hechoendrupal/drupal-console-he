@@ -1,45 +1,55 @@
+
 # drupal-console-he
 DrupalConsole Hebrew Language / בעברית
 
 # גרסה בעברית
 
-## Usage
+## Usage -  אופן השימוש
+<div dir="rtl" align="right" style="direction:rtl;text-align:right;">
+הדרופל קונסול מותקן באופן דיפולטי עבור כל אתר דרופל 8 בשפה האנגלית.
 
-Drupal Console project it's installed per each Drupal 8 website with English language by default.
+על מנת להתקין את הדרופל קונסול בשפה אחרת יש לבדוק האם קיימת גרסא או חבילה ב- [https://packagist.org](https://packagist.org).
+</div>
 
-To install Drupal Console package in other languages check the packages available at [https://packagist.org](https://packagist.org)
-
-
-### Install Drupal Console
-
-To install the appropriate version of Drupal Console project for your drupal installation, run the following composer command
+### Install Drupal Console - התקנה על ידי שימוש בטרמינל
+<div dir="rtl" align="right" style="direction:rtl;text-align:right;">
+על מנת לוודא איזו גרסת דרופל קונסול תואמת לגרסת הדרופל המותקנת אצלך יש להריץ את הפקודה הרשומה מטה:
+</div>
 
 ```
 $ composer require drupal/console:~1.0 --prefer-dist --optimize-autoloader
 ```
 
-### Install Drupal Console launcher
+### Install Drupal Console launcher - התקנה בעזרת אשף התקנות
+<div dir="rtl" align="right" style="direction:rtl;text-align:right;">
+בכדי למנוע התנגשויות בין גרסאות דרופל כאשר גרסת הדרופל היא גרסת ביניים (בין גרסא מינורית לגרסא מג׳ורית) נוצר אשף התקנות.
 
-In order to avoid conflicts between Drupal release and have a Drupal Console version between major and minor releases in Drupal,  a Drupal Console launcher was created. In order to facilitate to load the Drupal Console commands available to each
-Drupal 8 website,
- 
-To install Drupal Console launcher globally follow the instruction below. 
+אשף ההתקנות נועד לעזור בהתקנת הדרופל קונסול עבור כל אתר דרופל 8.
+
+ על מנת להתקין את אשף ההתקנות באופן גלובלי יש לעקוב אחר ההוראות הרשומות מטה:
+</div>
 
 ```
 $ curl https://drupalconsole.com/installer -L -o drupal.phar
-# Or 
+# Or
 $ php -r "readfile('https://drupalconsole.com/installer');" > drupal.phar
 
 $mv drupal.phar /usr/local/bin/drupal
 $ chmod +x /usr/local/bin/drupal
 ```
 
-### Contribute
+<div dir="rtl" align="right" style="direction:rtl;text-align:right;">
+<strong>כיצד ניתן לתרום </strong>
 
-If you want to contribute to this translation, you need to follow this steps to setup your environment.
+למעוניינים לתרום לתרגום הפרוייקט הזה , יש לבצע את השלבים הרשומים מטה על מנת ליצור את סביבת העבודה.
 
-- [Project requirements](https://docs.drupalconsole.com/en/contributing/project-requirements.html)
-- [Getting the project](https://docs.drupalconsole.com/en/contributing/getting-the-project.html)
-- [Running the project](https://docs.drupalconsole.com/en/contributing/running-the-project.html)
 
-N.B: Push your changes to your forked repository in order to create PR per day to avoid any conflicts with other contributors.
+- [דרישות הפרייקט](https://docs.drupalconsole.com/en/contributing/project-requirements.html)
+- [הורדת הפרוייקט](https://docs.drupalconsole.com/en/contributing/getting-the-project.html)
+- [הרצת הפרוייקט](https://docs.drupalconsole.com/en/contributing/running-the-project.html)
+
+ נ.ב. : יש לדחוף את השינויים מהעותק שלך לפרוייקט ממנו יצאת על ידי הפקודה הרשומה מטה
+ על מנת להמנע מקונפליקטים עם תורמי קוד אחרים.
+ </div>
+
+ ```PR (= Pull request)```
