@@ -2,12 +2,12 @@ description: 'Execute an external command.'
 arguments:
   bin: 'Executable command.'
 options:
-  working-directory: 'The current working directory.'
+  working-directory: 'ספרית העבודה הנוכחית'
 messages:
-  success: 'Executed the command.'
-  invalid-bin: 'Error executing the command.'
+  success: 'הפקודה בוצעה בהצלחה'
+  invalid-bin: 'שגיאה בביצוע הפקודה'
   missing-bin: 'Provide an executable command.'
   binary-not-found: 'Unable to find the binary "%s" to execute.'
-  working-directory: 'Working directory'
-  executing-command: 'Executing command'
+  working-directory: 'ספרית עבודה'
+  executing-command: 'ביצוע פקודה'
 
