@@ -7,7 +7,7 @@ messages:
   success: 'הפקודה בוצעה בהצלחה'
   invalid-bin: 'שגיאה בביצוע הפקודה'
   missing-bin: 'עליך לספק פקודת הפעלה'
-  binary-not-found: 'לא נמצא קובץ בינארי "%s" לביצוע'
+  binary-not-found: 'לביצוע  "%s"לא נמצא קובץ בינארי'
   working-directory: 'ספרית עבודה'
   executing-command: 'ביצוע פקודה'
 
