@@ -1,13 +1,13 @@
-description: 'Execute an external command.'
+description: 'בצע פקודה חיצונית.'
 arguments:
-  bin: 'Executable command.'
+  bin: 'פקודה לביצוע'
 options:
   working-directory: 'ספרית העבודה הנוכחית'
 messages:
   success: 'הפקודה בוצעה בהצלחה'
   invalid-bin: 'שגיאה בביצוע הפקודה'
-  missing-bin: 'Provide an executable command.'
-  binary-not-found: 'Unable to find the binary "%s" to execute.'
+  missing-bin: 'עליך לספק פקודת הפעלה'
+  binary-not-found: 'לא נמצא קובץ בינארי "%s" לביצוע'
   working-directory: 'ספרית עבודה'
   executing-command: 'ביצוע פקודה'
 
