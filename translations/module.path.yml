@@ -1,10 +1,10 @@
-description: 'Returns the relative path to the module (or absolute path)'
+description: ' ( מחזיר את הנתיב היחסי של המודול (או את הנתיב המוחלט '
 arguments:
-  module: 'The Module name (machine name)'
+  module: '(שם המודול (שם המכונה'
 options:
-  absolute: 'Return module absolute path'
+  absolute: 'מחזיר את הנתיב המוחלט של המודול'
 messages:
 examples:
-  - description: 'Get the relative path of the module specifying the module name'
+  - description: 'מחזיר את הנתיב היחסי של המודול בהתבסס על שם המודול'
     execution: |
       drupal module:path  modulename
