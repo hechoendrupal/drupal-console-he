@@ -8,7 +8,7 @@ questions:
   destination: 'Select destination to copy configuration'
   autocomplete: 'יצירת קבצי השלמה אוטומטים'
   language: 'בחירת שפה'
-  temp: 'הזן נתיב קובץ זמניh'
+  temp: 'הזן נתיב קובץ זמני'
   chain: 'Copy chain files examples'
   sites: 'Copy site alias files examples'
   temp: 'הזנת נתיב קובץ זמני'
