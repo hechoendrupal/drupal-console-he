@@ -1,6 +1,6 @@
 description: 'הוספת שפות אשר יתמכו באתר '
 messages:
-  invalid-language: 'היא שפה לא חוקית "%s" השפה'
+  invalid-language: 'היא שפה אינה חוקית "%s" השפה'
   invalid-languages: 'אינן חוקיות "%s" השפות'
   language-add-successfully: 'הוספה בהצלחה "%s" השפה'
   languages-add-successfully: 'הוספו בהצלחה "%s" השפות'
