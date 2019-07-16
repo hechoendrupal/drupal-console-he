@@ -2,6 +2,7 @@ description: 'Executes a SQL statement directly as argument'
 arguments:
     query: 'The SQL statement to execute'
     database: 'Database key from settings.php'
+    target: 'Database target from settings.php'
 options:
     quick: 'Do not cache each query result, print each row as it is received'
     debug: 'Prints debugging information and memory and CPU usage statistics when the program exits'
@@ -14,6 +15,6 @@ messages:
     connection: 'Connection: "%s"'
 help: 'First argument should be the SQL statement. Second argument could be the name of the affected database.'
 examples:
-    - description: 'Send a database query'
-      execution: |
-        drupal database:query 'select * from node limit 0,1'
+    -
+        description: 'Send a database query'
+        execution: "drupal database:query 'select * from node limit 0,1'\n"

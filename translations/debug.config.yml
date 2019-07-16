@@ -5,13 +5,16 @@ options:
     show-overridden: 'Show overridden configurations.'
 errors:
     not-exists: 'The configuration "%s" does not exist.'
-
 examples:
-    - description: 'List all configuration object names.'
-      execution: 'drupal debug:config'
-    - description: 'Display system site configurations values.'
-      execution: 'drupal debug:config system.site'
-    - description: 'List all system configuration names.'
-      execution: 'drupal debug:config | grep system'
-    - description: 'List all configuration including overridden values.'
-      execution: 'drupal debug:config --show-overridden'
+    -
+        description: 'List all configuration object names.'
+        execution: 'drupal debug:config'
+    -
+        description: 'Display system site configurations values.'
+        execution: 'drupal debug:config system.site'
+    -
+        description: 'List all system configuration names.'
+        execution: 'drupal debug:config | grep system'
+    -
+        description: 'List all configuration including overridden values.'
+        execution: 'drupal debug:config --show-overridden'
