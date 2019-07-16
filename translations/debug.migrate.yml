@@ -7,6 +7,6 @@ messages:
     no-migrations: 'There aren''t migrations available try to execute command: migrate:setup:migrations'
     tags: Tags
 examples:
-    - description: 'Displays current migration'
-      execution: |
-        drupal debug:migrate
+    -
+        description: 'Displays current migration'
+        execution: "drupal debug:migrate\n"

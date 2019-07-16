@@ -5,6 +5,6 @@ messages:
     role-id: 'Role ID'
     role-name: 'Role Name'
 examples:
-    - description: 'Roles list on the site'
-      execution: |
-        drupal debug:roles
+    -
+        description: 'Roles list on the site'
+        execution: "drupal debug:roles\n"

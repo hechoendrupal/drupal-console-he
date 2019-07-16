@@ -1,14 +1,16 @@
 description: 'מחזיר לינק חד פעמי עבור כניסת משתמש.'
 options:
-  user: 'שם משתמש/מזהה משתמש'
+    user: 'שם משתמש/מזהה משתמש'
 messages:
-  url: '"%s" כניסה חד פעמית עבור'
+    url: '"%s" כניסה חד פעמית עבור'
 questions:
-  user: 'הכנס/י שם משתמש/מזהה משתמש'
+    user: 'הכנס/י שם משתמש/מזהה משתמש'
 errors:
-  invalid-user: '("%s" לא ניתן להעלות את פרטי המשתמש (מזהה משתמש)'
+    invalid-user: '("%s" לא ניתן להעלות את פרטי המשתמש (מזהה משתמש)'
 examples:
-  - description: 'קבל/י לינק חד פעמי עבור משתמש בעל מזהה משתמש 10'
-    execution: drupal user:login:url  10
-  - description: 'jmolivas קבל/י לינק חד פעמי עבור משתמש בשם'
-    execution: drupal user:login:url jmolivas
+    -
+        description: 'קבל/י לינק חד פעמי עבור משתמש בעל מזהה משתמש 10'
+        execution: 'drupal user:login:url  10'
+    -
+        description: 'jmolivas קבל/י לינק חד פעמי עבור משתמש בשם'
+        execution: 'drupal user:login:url jmolivas'

@@ -15,6 +15,6 @@ messages:
     success-groups: 'All testing groups were listed sucessfully, use the group argument to filter Test unit by group i.e $ drupal debug:test Url'
     success-group: 'All test units for group "%s" were listed sucessfully'
 examples:
-    - description: ''
-      execution: |
-        drupal debug:test
+    -
+        description: ''
+        execution: "drupal debug:test\n"

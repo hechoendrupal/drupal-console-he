@@ -1,38 +1,5 @@
 description: 'Add support and required config to work with an .env file'
 messages:
-  template-env: |
-    This file is a "template" of which env vars need to be defined
-    for your application, use only on development stages.
-    Create real environment variables when deploying to production.
-  load-from-env: |
-    If not using real environment variables.
-    Make sure you add the dependency using composer
-
-    Drupal 8.5 and up versions `composer require symfony/dotenv`
-    if (file_exists(dirname(DRUPAL_ROOT) . '/.env')) {
-      $dotenv = new \Symfony\Component\Dotenv\Dotenv(dirname(DRUPAL_ROOT));
-      $dotenv->load();
-    }
-
-    Drupal 8.4 and minor versions `composer require vlucas/phpdotenv`
-    if (file_exists(dirname(DRUPAL_ROOT) . '/.env')) {
-      $dotenv = new \Dotenv\Dotenv(dirname(DRUPAL_ROOT));
-      $dotenv->load();
-    }
-  load-settings: |
-    # Load key/value settings
-    $settings_drupal = array_filter(
-        $_SERVER,
-        function($key) {
-            return  strpos($key, 'SETTINGS_') === 0;
-        },
-        ARRAY_FILTER_USE_KEY
-    );
-
-    # Set key/value settings
-    foreach ($settings_drupal as $name => $value) {
-      if (substr($name, 0, 9) === 'SETTINGS_') {
-        $key = strtolower(substr($name, 9));
-        $settings['settings'][$key] = $value;
-      }
-    }
+    template-env: "This file is a \"template\" of which env vars need to be defined\nfor your application, use only on development stages.\nCreate real environment variables when deploying to production.\n"
+    load-from-env: "If not using real environment variables.\nMake sure you add the dependency using composer\n\nDrupal 8.5 and up versions `composer require symfony/dotenv`\nif (file_exists(dirname(DRUPAL_ROOT) . '/.env')) {\n  $dotenv = new \\Symfony\\Component\\Dotenv\\Dotenv(dirname(DRUPAL_ROOT));\n  $dotenv->load();\n}\n\nDrupal 8.4 and minor versions `composer require vlucas/phpdotenv`\nif (file_exists(dirname(DRUPAL_ROOT) . '/.env')) {\n  $dotenv = new \\Dotenv\\Dotenv(dirname(DRUPAL_ROOT));\n  $dotenv->load();\n}\n"
+    load-settings: "# Load key/value settings\n$settings_drupal = array_filter(\n    $_SERVER,\n    function($key) {\n        return  strpos($key, 'SETTINGS_') === 0;\n    },\n    ARRAY_FILTER_USE_KEY\n);\n\n# Set key/value settings\nforeach ($settings_drupal as $name => $value) {\n  if (substr($name, 0, 9) === 'SETTINGS_') {\n    $key = strtolower(substr($name, 9));\n    $settings['settings'][$key] = $value;\n  }\n}\n"
