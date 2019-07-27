@@ -1,15 +1,15 @@
-description: 'Rebuild and clear all site caches.'
+description: 'בניה מחדש וניקוי כל זכרון המטמון'
 options:
-    cache: 'Only clear a specific cache.'
+    cache: 'מנקה זכרון מטמון ספסציפי'
 messages:
-    welcome: 'Welcome to the cache:rebuild command'
-    rebuild: 'Rebuilding cache(s), wait a moment please.'
-    completed: 'Done clearing cache(s).'
-    invalid-cache: 'Cache "%s" is invalid.'
+    welcome: 'cache:rebuild command ברוכים הבאים לפקודת '
+    rebuild: 'בונה מחדש את הזכרון מטמון, נא להמתין'
+    completed: 'זכרון המטמון נוקה בהצלחה'
+    invalid-cache: 'אינו תקין "%s" זכרון מטמון'
 questions:
-    cache: 'Select cache.'
+    cache: 'נא לבחור זכרון מטמון'
 examples:
-    - description: Rebuild all caches
+    - description: בנית כל זכרונות המטמון
       execution: drupal cr all
-    - description: Rebuild discovery cache
+    - description: בניה מחדש של הזכרון מטמון
       execution: drupal cr discovery
