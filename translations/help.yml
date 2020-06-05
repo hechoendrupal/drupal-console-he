@@ -1,4 +1,4 @@
-description: 'Displays help for a command'
+description: 'מראה עזרה לפקודה'
 help: |
         The <info>%command.name%</info> command displays help for a given command:
 
@@ -10,7 +10,7 @@ help: |
 
         To display the list of available commands, please use the <info>list</info> command.
 arguments:
-    command-name: 'The command name'
+    command-name: 'שם הפקודה'
 options:
     xml: 'To output list as XML'
     raw: 'To output raw command list'

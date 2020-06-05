@@ -1,11 +1,11 @@
-description: 'Returns the relative path to the theme (or absolute path)'
+description: '(מחזיר את הנתיב היחסי של ערכת העיצוב (או נתיב אבסלוטי '
 arguments:
-  theme: 'Theme name'
+  theme: 'שם ערכת העיצוב'
 options:
-  absolute: 'Return theme absolute path'
+  absolute: 'מחזיר נתיב אבסלוטי לערכת העיצוב'
 messages:
-  invalid-theme-name: 'Invalid theme name: "%s"'
+  invalid-theme-name: 'אינו תקין "%s" שם ערכת העיצוב '
 examples:
-  - description: 'Get the path of mytheme'
+  - description: ' mytheme מחזיר את שם ערכת העיצוב '
     execution: |
       drupal theme:path  mytheme

@@ -1,10 +1,10 @@
-description: 'Enable a View'
+description: 'אפשר היבט'
 messages:
-  enabled-successfully: 'View "%s" was enabled successfully.'
+  enabled-successfully: 'אופשר בהצלחה "%s" ההיבט'
 examples:
-  - description: 'Enable content view'
+  - description: 'אפשר היבט של תוכן'
     execution: |
       drupal views:enable  content
-  - description: 'Enable frontpage view'
+  - description: 'אפשר היבט של דף ראשי'
     execution: |
       drupal views:enable  frontpage

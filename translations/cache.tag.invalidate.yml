@@ -1,11 +1,11 @@
-description: 'Invalidate cache tags.'
+description: 'תגיות זכרון מטמון לא תקינות'
 options:
-    tag: 'One or more tags to invalidate.'
+    tag: ' תגית זכרון מטמון אחת או יותר לא תקינות'
 messages:
-    start: 'Invalidating tag(s) "%s".'
-    completed: 'Done invalidating tag(s).'
+    start: 'אינן תקינות "%s" תג/יות'
+    completed: 'מעבר על תגיות לא תקינות הסתיים'
 examples:
-    - description: Invalidate routes
+    - description: נתיבים לא תקינים
       execution: drupal cti routes
-    - description: Invalidate a specific node
+    - description: נוד ספציפי לא תקין
       execution: drupal cti node:1 node_list
